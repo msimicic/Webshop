@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.category-container {
+  flex-wrap: wrap;
+}
+
+.category-button {
+  border: none;
+  border-radius: 10px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  width: 250px;
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-price {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding-right: 0 !important;
+  }
+}
+
+.product-link {
+  text-decoration: none; /* Uklanja uobičajenu dekoraciju teksta */
+  color: inherit; /* Nasljeđuje boju teksta od roditeljskog elementa */
+}
